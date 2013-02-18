@@ -34,7 +34,7 @@
 			array('id' => 'http://fc04.deviantart.net/fs70/f/2013/047/8/1/81c5d4df933ab79a71853dc535da2db1-d5v7hgu.png', 'width' => 210, 'height' => 282)
 		);
 
-		require_once("RectanglePacker.class.php");
+		require_once("PowerOf2RectanglePacker.class.php");
 		$rp = new PowerOf2RectanglePacker($images);
 		$imgs = $rp->pack();
 		$dimensions = $rp->getPackingDimensions();
