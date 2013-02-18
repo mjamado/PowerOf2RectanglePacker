@@ -18,6 +18,8 @@ In `index.php` there's an example of usage. However, the steps are pretty
 simple:
 
 ```php
+// create an array of rectangles to pack - don't worry about the ordering,
+// they'll be sorted by descending area inside the packer
 $rectangles = array(
 	array(
 		'id' => 'this can be whatever you want - more about it below',
