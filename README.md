@@ -36,10 +36,10 @@ $rp = new PowerOf2RectanglePacker($rectangles);
 $packing = $rp->pack();
 // $packing now has the same array as declared before, but with two additional
 // properties per item: posX and posY, that indicates where did the rectangle
-// go positioned
+// got positioned
 
-// if you need to know the packing dimensions - which you normal need to - they
-// are right here:
+// if you need to know the packing dimensions - which you normally do - they're
+// right here:
 $dimensions = $rp->getPackingDimensions();
 
 // do stuff with it - like actually creating a texture from images, for example
